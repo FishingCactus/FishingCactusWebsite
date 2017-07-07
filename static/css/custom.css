@@ -24,6 +24,9 @@
     border-color: #906333;
 }
 
+ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+    background-color: #444444;
+}
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl,
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:active {
     border-color: #9b6c3a;
@@ -34,4 +37,11 @@
 .container>.navbar-header,
 .navbar-default .navbar-collapse  {
     background-color:#fff;
+}
+
+@media (min-width: 768px) {
+    .container>.navbar-header,
+    .navbar-default .navbar-collapse  {
+        background-color:initial;
+    }
 }
