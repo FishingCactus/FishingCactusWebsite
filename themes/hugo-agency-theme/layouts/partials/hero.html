@@ -1,0 +1,26 @@
+{{ "<!-- Hero -->" | safeHTML }}
+<header>
+  <div class="container">
+    {{ if .Site.Params.hero.logo }}
+        <div class="col-lg-8 col-lg-offset-2 intro-text">
+          {{ $url := printf "img/%s" .Site.Params.hero.logo }}
+          <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Site.Params.navigation.brand }}">
+          {{ if .Site.Params.hero.buttonTarget }}
+            <a href="{{ .Site.Params.hero.buttonTarget }}" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
+          {{ else }}
+            <a href="#services" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
+          {{ end }}
+        </div>
+      {{ else }}
+        <div class="intro-text">
+          <div class="intro-lead-in">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</div>
+          <div class="intro-heading">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
+          {{ if .Site.Params.hero.buttonTarget }}
+            <a href="{{ .Site.Params.hero.buttonTarget }}" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
+          {{ else }}
+            <a href="#services" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
+          {{ end }}
+        </div>
+    {{ end }}
+  </div>
+</header>

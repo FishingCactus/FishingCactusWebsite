@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Grobold";
+    src: url("../fonts/grobold.eot") format('embedded-opentype'), url("../fonts/grobold.woff") format('woff'),url("../fonts/grobold.ttf") format('truetype');
+
+}
+.navbar-default .navbar-brand {
+    font-family: "Grobold","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #000000;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active {
+    color: #444444;
+}
+.navbar-default .nav li a {
+    color: #000000;
+}
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:active {
+    color: #444444;
+}
+.btn-xl {
+    background-color: #be884a;
+    border-color: #906333;
+}
