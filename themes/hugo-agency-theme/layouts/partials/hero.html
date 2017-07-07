@@ -2,7 +2,7 @@
 <header>
   <div class="container">
     {{ if .Site.Params.hero.logo }}
-        <div class="col-lg-8 col-lg-offset-2 intro-text">
+        <div class="col-lg-6 col-lg-offset-3 intro-text">
           {{ $url := printf "img/%s" .Site.Params.hero.logo }}
           <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Site.Params.navigation.brand }}">
           {{ if .Site.Params.hero.buttonTarget }}

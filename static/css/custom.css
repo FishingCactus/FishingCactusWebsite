@@ -18,7 +18,20 @@
 .navbar-default .nav li a:active {
     color: #444444;
 }
-.btn-xl {
+.btn-xl,
+.navbar-default .navbar-toggle {
     background-color: #be884a;
     border-color: #906333;
+}
+
+.btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl,
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:active {
+    border-color: #9b6c3a;
+    color: #fff;
+    background-color: #c19766;
+}
+
+.container>.navbar-header,
+.navbar-default .navbar-collapse  {
+    background-color:#fff;
 }
