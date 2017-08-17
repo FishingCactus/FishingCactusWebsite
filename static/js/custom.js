@@ -32,7 +32,7 @@ $(document).ready(function(){
                     img.hide();
                     img.appendTo("body");
                     var position = $(this).position();
-                    img.css({"left": position.left + ($(this).width() - img.width()) / 2.0});
+                    img.css({ "left": position.left + ($(this).width() - img.width()) / 2.0});
                     img.slideDown(200);
                 }
             },

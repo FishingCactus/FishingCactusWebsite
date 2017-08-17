@@ -41,7 +41,7 @@
           </li>
         {{ end }}
 
-        {{ if .Site.Params.portfolio.enable }}
+        {{ if and .Site.Params.portfolio.enable .Site.Params.portfolio.enableNav  }}
           <li>
             <a class="page-scroll" href="{{ .Site.BaseURL }}#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . }}{{ end }}</a>
           </li>

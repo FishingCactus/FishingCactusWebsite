@@ -125,13 +125,14 @@ googleAnalytics = ""
 
   # Portfolio section
   [params.portfolio]
-    enable = false
+    enable = true
+    enableNav = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
-    # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    # For more information take a look at the README.
+    title = "Games"
+    # subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [params.portfolio.modal]
       client = "Client"

@@ -48,12 +48,24 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
     .navbar-default .navbar-collapse  {
         background-color:initial;
     }
+
+    .navbar-default.navbar-shrink  {
+        background-color:#FFF;
+    }
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background-color:rgba(0,0,0,0.9);
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    color: #8eb334;
 }
 
 .cactus {
-    position: absolute;
+    position: fixed;
     top: -50px;
     width: 80px;
     transform: rotate(180deg);
-    z-index: 1000;
+    z-index: 10000;
+    pointer-events: none;
 }
