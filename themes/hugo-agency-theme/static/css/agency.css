@@ -132,7 +132,6 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
-.btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     border-color: #f6bf01;
     color: #fff;

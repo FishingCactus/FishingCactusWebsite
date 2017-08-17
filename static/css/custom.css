@@ -8,13 +8,17 @@
     color: #000000;
 }
 .navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active {
     color: #444444;
 }
 .navbar-default .nav li a {
     color: #000000;
 }
-.navbar-default .nav li a:hover,
+.navbar-default .nav li a:hover {
+    color: transparent;
+}
+.navbar-default .nav li a:focus
 .navbar-default .nav li a:active {
     color: #444444;
 }
@@ -44,4 +48,12 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
     .navbar-default .navbar-collapse  {
         background-color:initial;
     }
+}
+
+.cactus {
+    position: absolute;
+    top: -50px;
+    width: 80px;
+    transform: rotate(180deg);
+    z-index: 1000;
 }
