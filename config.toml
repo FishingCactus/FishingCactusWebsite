@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "www.fishingcactus.com"
+baseurl = "./"
 languageCode = "en-us"
 title = "Fishing Cactus"
 theme = "hugo-agency-theme"
