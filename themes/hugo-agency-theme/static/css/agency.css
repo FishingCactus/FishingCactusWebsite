@@ -331,14 +331,14 @@ header .intro-arrow {
     width:1.6em;
     height:1.6em;
     color: #000;
-    border: 5px solid black;
+    border: 4px solid black;
     border-radius: 50%;
 }
 
 @media(min-width:768px) {
     header .intro-logo {
         padding-top: 300px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
 
     header .intro-text {
@@ -346,14 +346,14 @@ header .intro-arrow {
     }
 
     header .intro-text .intro-lead-in {
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 30px;
+        line-height: 30px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        font-size: 75px;
-        line-height: 75px;
+        font-size: 50px;
+        line-height: 50px;
     }
 
     header .intro-arrow {
@@ -979,4 +979,4 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
-}-
+}
