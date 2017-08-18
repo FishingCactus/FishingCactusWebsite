@@ -90,10 +90,11 @@ googleAnalytics = ""
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "A certain taste for spicy games!"
-    subtitle = "Fishing Cactus"
+    #subtitle = "Fishing Cactus"
     buttonText = "Enter our website!"
     buttonTarget = "http://gaming.fishingcactus.com/en/"
     logo = "hero-logo.svg"
+    arrowButtonTarget = "#portfolio"
 
 
 

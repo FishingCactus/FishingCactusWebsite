@@ -2,7 +2,8 @@
 <header>
   <div class="container">
     {{ if .Site.Params.hero.logo }}
-        <div class="col-sm-6 col-sm-offset-3 intro-text">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3 intro-logo">
           {{ $url := printf "img/%s" .Site.Params.hero.logo }}
           <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Site.Params.navigation.brand }}">
           {{ if .Site.Params.hero.buttonTarget }}
@@ -11,16 +12,16 @@
             <a href="#services" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
           {{ end }}
         </div>
-      {{ else }}
+      </div>
+    {{ end }}
+    {{ if .Site.Params.hero.title }}
+      <div class="row">
         <div class="intro-text">
           <div class="intro-lead-in">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</div>
           <div class="intro-heading">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
-          {{ if .Site.Params.hero.buttonTarget }}
-            <a href="{{ .Site.Params.hero.buttonTarget }}" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
-          {{ else }}
-            <a href="#services" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
-          {{ end }}
+          <a href="{{ .Site.Params.hero.arrowButtonTarget }}" class="page-scroll"><i class="intro-arrow fa fa-angle-double-down animated"></i></a>
         </div>
+      </div>
     {{ end }}
   </div>
 </header>
