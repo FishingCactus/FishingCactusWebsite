@@ -17,8 +17,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Fishing Cactus"
-  description = "Gaming Company"
+  name = "Fishing Cactus | Game Development Studio"
+  description = "If a game project seems too spiny, you probably hit the wrong cactus. Fishing Cactus is your one stop shop for any gaming needs. 30 years of experience and a certain taste for innovation, Fishing Cactus numbers over 50 released titles on mobile, PC and consoles. With 30 brains fishing for ideas, we create compelling quality games at the cutting edge of technology. Fishing Cactus designs tailored digital experiences that are wooshed over digital distribution platforms such as iTunes, Steam. We are experts in building rich interactions systems both inside and outside gaming. We are the makers of the atypical typing adventure game Epistory: Typing Chronicles. Fishing Cactus is a game development studio based on Mons, Belgium."
 
   # Link custom assets relative to /static
   custom_css = ["css/custom.css"]
