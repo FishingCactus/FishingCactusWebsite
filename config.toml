@@ -47,7 +47,7 @@ googleAnalytics = ""
   [params.navigation]
     brand = "Fishing Cactus"
     # Optional logo as brand stored in img/
-    logo = "fishingcactus_small_normal.jpg"
+    logo = "fishingcactus_small_normal.svg"
     services = "Services"
     portfolio = "Portfolio"
     about = "About"
